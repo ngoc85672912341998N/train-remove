@@ -1,7 +1,7 @@
 GPU_ID: '0' 
 model_restore: '' 
 
-log_dir: /kaggle/input/khanhngoc/exp/logs/shutterstock
+log_dir: exp/logs/shutterstock
 dir_video: '/kaggle/input/khanhngoc/inputs/videos/output' 
 dir_mask: '/kaggle/input/khanhngoc/inputs/masks/mask2'
 
