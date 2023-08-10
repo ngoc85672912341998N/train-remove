@@ -10,7 +10,7 @@ from loss import ambiguity_loss, stable_loss
 
 if __name__ == "__main__":
     # read config 
-    FLAGS = Config('config/train.yml')
+    FLAGS = Config('/kaggle/input/khanhngoc/config/train.yml')
     os.environ["CUDA_VISIBLE_DEVICES"] = FLAGS.GPU_ID 
     
     #mirrored_strategy = tf.distribute.MirroredStrategy()
